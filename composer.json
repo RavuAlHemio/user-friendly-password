@@ -1,0 +1,30 @@
+{
+  "name": "ravualhemio/user-friendly-password",
+  "description": "User-friendly password hashing implementation",
+  "license": "CC0-1.0",
+  "require": {
+    "php": ">=7.3"
+  },
+  "authors": [
+    {
+      "name": "Ondřej Hošek",
+      "email": "ondra.hosek@gmail.com",
+      "role": "Programmer"
+    },
+    {
+      "name": "Spirytus Rektyfikowany",
+      "role": "Designer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "RavuAlHemio\\UserFriendlyPassword\\": "src/"
+    }
+  },
+  "funding": [
+    {
+      "type": "taxes",
+      "url": "https://www.bmf.gv.at/"
+    }
+  ]
+}
